@@ -29,7 +29,7 @@ const NavTabs = props => (
                     props.currentPage === "Search" ? "nav-link active" : "nav-link"
                 }
             >
-                Discover
+                Search
       </a>
         </li>
     </ul>
