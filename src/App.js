@@ -1,14 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import search from "./components/pages/search";
+
+import Search from "./components/pages/Search";
 
 const App = () => (
   <Router>
     <div>
-      <NavTabs />
+      {/* <NavTabs />
       <Route exact path="/" component={Home} />
-      <Route exact path="/discover" component={Discover} />
-      <Route exact path="/search" component={search} />
+
+      <Route exact path="/discover" component={Discover} /> */}
+      <Route exact path="/search" component={Search} />
+
     </div>
   </Router>
 );
+export default App;
