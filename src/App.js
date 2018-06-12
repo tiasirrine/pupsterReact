@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import search from "./components/pages/search";
 
 const App = () => (
   <Router>
@@ -7,7 +8,7 @@ const App = () => (
       <NavTabs />
       <Route exact path="/" component={Home} />
       <Route exact path="/discover" component={Discover} />
-      <Route exact path="/search" component={Search} />
+      <Route exact path="/search" component={search} />
     </div>
   </Router>
 );
